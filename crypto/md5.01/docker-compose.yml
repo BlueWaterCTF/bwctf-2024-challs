@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+    md501:
+        build:
+            context: .
+        ports:
+            - "23235:23235"

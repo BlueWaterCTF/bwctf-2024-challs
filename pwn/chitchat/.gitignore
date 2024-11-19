@@ -1,0 +1,4 @@
+out/
+src/client/libc/*.so
+src/client/libc/*.so.6
+

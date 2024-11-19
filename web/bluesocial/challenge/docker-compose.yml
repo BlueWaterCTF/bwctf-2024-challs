@@ -1,0 +1,9 @@
+services:
+  app:
+    build:
+      context: ./challenge
+    ports:
+      - "${PORT}:1337"
+     environment:
+       - FLAG=bwctf{you_can_reparent_frames_now}
+      # - SITE=hax.perfect.blue:6969
